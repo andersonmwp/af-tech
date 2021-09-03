@@ -1,0 +1,88 @@
+body {
+    background-color: var(--primary-color);
+}
+
+/*---------- Header ----------*/
+.logo-container {
+    text-align: center;
+    margin: 1.875rem 0;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--white-color);
+}
+
+.logo-subtitle {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+/*---------- Form Login ----------*/
+.form-container {
+    background-color: var(--white-color);
+
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+}
+
+.form-input {
+    width: 500px;
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 30px;
+    border: 0;
+    
+    font-size: 1.1875rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    background-color: var(--offwhite-color);
+}
+
+.form-input-label {
+    color: var(--black-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+    
+    padding-left: 10px;
+}
+
+.start-container {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.start-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--black-color);
+
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.start-title:hover {
+    color: var(--secondary-color);
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 60px;
+}
