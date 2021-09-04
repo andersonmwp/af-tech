@@ -1,3 +1,4 @@
+/*---------- Global ----------*/
 :root{
     --primary-color:#5B9CFD;
     --secondary-color: #81B3FF;
@@ -16,6 +17,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
 }
 
 body {
@@ -24,6 +28,45 @@ body {
     font-family: var(--font-primary);
 }
 
+/*---------- Navbar ----------*/
+.navbar-container{
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    margin-left: 100px;
+    
+    color: var(--white-color);
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.navbar-link-container {
+    margin-right: 60px;
+}
+
+.navbar-link {
+    padding: 0 20px;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    color: var(--white-color);
+}
+
+.navbar-link:hover {
+    color: var(--secondary-color);
+}
+
+/*---------- Button ----------*/
 .btn {
     width: 300px;
     height: 50px;
