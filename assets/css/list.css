@@ -7,8 +7,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    overflow-x: auto;
 }
 
 .table-container {
@@ -20,6 +18,8 @@ main {
     border-radius: 3px;
 
     border-spacing: 0 0.75rem; 
+
+    overflow-x: auto;
 }
 
 .table-title {
