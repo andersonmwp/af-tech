@@ -1,4 +1,4 @@
-/*---------- Global ----------*/
+/*---------- GLOBAL ----------*/
 :root{
     --primary-color:#5B9CFD;
     --secondary-color: #81B3FF;
@@ -19,7 +19,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    border: none;
 }
 
 body {
@@ -28,7 +27,8 @@ body {
     font-family: var(--font-primary);
 }
 
-/*---------- Navbar ----------*/
+/*---------- NAVBAR ----------*/
+
 .navbar-container{
     display: flex;
     align-items: center;
@@ -72,7 +72,8 @@ body {
     color: var(--secondary-color);
 }
 
-/*---------- Button ----------*/
+/*---------- BOTÃO ----------*/
+
 .btn {
     width: 300px;
     height: 50px;
@@ -93,7 +94,8 @@ body {
     background-color: var(--secondary-color);
 }
 
-/*---------- Usuário logado ----------*/
+/*---------- SAUDAÇÃO DE USUÁRIO LOGADO ----------*/
+
 #logado {
     font-family: var(--font-secondary);
     color: var(--primary-color);

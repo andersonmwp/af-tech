@@ -2,7 +2,8 @@ body {
     background-color: var(--primary-color);
 }
 
-/*---------- Header ----------*/
+/*---------- HEADER ----------*/
+
 .logo-container {
     text-align: center;
 }
@@ -21,7 +22,7 @@ body {
     color: var(--white-color);
 }
 
-/*---------- Form Login ----------*/
+/*---------- FORMULÁRIO DE LOGIN ----------*/
 
 .container {
     display: flex;
@@ -65,6 +66,14 @@ body {
     background-color: var(--offwhite-color);
 }
 
+.senha-input-container {
+    padding-left: 20px;
+}
+
+#senhaLabel {
+    padding-left: 30px;
+}
+
 .fa-eye {
     position: relative;
     right: 40px;
@@ -103,7 +112,8 @@ body {
     margin-top: 30px;
 }
 
-/*---------- Registration Page ----------*/
+/*---------- PÁGINA DE REGISTRO ----------*/
+
 .registration-container {
     height: 550px;
 }

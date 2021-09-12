@@ -1,6 +1,7 @@
 main {
     padding-top: 70px;
 }
+/*---------- TABELA ----------*/
 
 .container {
     display: flex;
@@ -40,6 +41,8 @@ table tbody tr {
 table tbody tr:hover {
     opacity: 1;
 }
+
+/*---------- ICONES DA TABELA ----------*/
 
 .fa-arrow-alt-circle-up {
     color: var(--green-color);

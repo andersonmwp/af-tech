@@ -1,4 +1,5 @@
-/*--------- MOSTRAR SENHA ----------*/
+/*--------- MOSTRAR E ESCONDER SENHA ----------*/
+
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
@@ -24,6 +25,7 @@ btnConfirm.addEventListener('click', ()=>{
 
 
 /*--------- VALIDAÇÃO DE CADASTROS DE USUÁRIOS ----------*/
+
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
@@ -83,7 +85,7 @@ confirmSenha.addEventListener('keyup', ()=> {
     if(senha.value != confirmSenha.value){
         labelConfirmSenha.setAttribute('style', 'color: #F57C7C')
         labelConfirmSenha.innerHTML = 'Confirmar senha *As senhas não conferem'
-        validconfirmSenha = false
+        validConfirmSenha = false
     } else {
         labelConfirmSenha.setAttribute('style', 'color: #4FDF55')
         labelConfirmSenha.innerHTML = 'Confirmar senha'
@@ -91,8 +93,10 @@ confirmSenha.addEventListener('keyup', ()=> {
     }
 })
 
+/*--------- CADASTRO E ENVIO PARA O LOCALSTORAGE ----------*/
+
 function cadastrar(){
-    if(validNome && validEmail && validSenha && validCsonfirmSenha){
+    if(validNome && validEmail && validSenha && validConfirmSenha){
         let listUser = JSON.parse(localStorage.getItem('listUser') || '[]')
 
         listUser.push(
@@ -111,7 +115,7 @@ function cadastrar(){
         msgError.innerHTML = ''
 
         setTimeout(()=> {
-            window.location.href = 'https://www.google.com.br/'
+            window.location.href = 'index.html'
         }, 3000)
 
     } else {
@@ -121,7 +125,6 @@ function cadastrar(){
         msgSuccess.innerHTML = ''
     }
 }
-
 
 /*--------- AUTENTICAÇÃO DE LOGIN ----------*/
 
@@ -172,6 +175,7 @@ function entrar(){
 }
 
 /*--------- SAUDADAÇÃO APÓS LOGIN ----------*/
+
 let userLogado = JSON.parse(localStorage.getItem('userLogado'))
 let logado = document.querySelector('#logado')
 
@@ -181,11 +185,11 @@ logado.innerHTML = `Olá, ${userLogado.nome}`
 
 if(localStorage.getItem('token') == null){
     alert('Você precisa estar logado para acessar essa página!')
-    window.location.href = 'login.html'
+    window.location.href = 'index.html'
 }
 
 function sair() {
     localStorage.removeItem('token')
     localStorage.removeItem('userLogado')
-    window.location.href = 'login.html'
+    window.location.href = 'index.html'
 }
