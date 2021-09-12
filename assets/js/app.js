@@ -121,3 +121,71 @@ function cadastrar(){
         msgSuccess.innerHTML = ''
     }
 }
+
+
+/*--------- AUTENTICAÇÃO DE LOGIN ----------*/
+
+function entrar(){
+    let email = document.querySelector('#email')
+    let emailLabel = document.querySelector('#emailLabel')
+
+    let senha = document.querySelector('#senha')
+    let senhaLabel = document.querySelector('#senhaLabel')
+
+    let msgError = document.querySelector('#msgError')
+    let listUser = []
+
+    let userValid = {
+        nome: '',
+        email: '',
+        senha: ''
+    }
+
+    listUser = JSON.parse(localStorage.getItem('listUser'))
+
+    listUser.forEach((item) => {
+        if(email.value == item.email && senha.value == item.senha){
+            userValid = {
+                nome: item.nome,
+                email: item.email,
+                senha: item.senha
+            }
+        }
+    })
+
+    if(email.value == userValid.email && senha.value == userValid.senha) {
+        window.location.href = 'list.html'
+
+        let token = Math.random().toString(16).substr(2)
+        localStorage.setItem('token', token)
+
+        localStorage.setItem('userLogado', JSON.stringify(userValid))
+    } else {
+        emailLabel.setAttribute('style', 'color: #F57C7C')
+        email.setAttribute('style', 'background-color: #F57C7C')
+        senhaLabel.setAttribute('style', 'color: #F57C7C')
+        senha.setAttribute('style', 'background-color: #F57C7C')
+        msgError.setAttribute('style', 'display: block')
+        msgError.innerHTML = 'E-mail ou senha incorretos!'
+        email.focus()
+    }
+}
+
+/*--------- SAUDADAÇÃO APÓS LOGIN ----------*/
+let userLogado = JSON.parse(localStorage.getItem('userLogado'))
+let logado = document.querySelector('#logado')
+
+logado.innerHTML = `Olá, ${userLogado.nome}`
+
+/*--------- DESLOGAR ----------*/
+
+if(localStorage.getItem('token') == null){
+    alert('Você precisa estar logado para acessar essa página!')
+    window.location.href = 'login.html'
+}
+
+function sair() {
+    localStorage.removeItem('token')
+    localStorage.removeItem('userLogado')
+    window.location.href = 'login.html'
+}

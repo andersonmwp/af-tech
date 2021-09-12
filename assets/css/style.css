@@ -64,6 +64,7 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     font-family: var(--font-secondary);
+    cursor: pointer;
     transition: all .6s ease-in-out;
 }
 
@@ -90,4 +91,14 @@ body {
 
 .btn:hover {
     background-color: var(--secondary-color);
+}
+
+/*---------- Usuário logado ----------*/
+#logado {
+    font-family: var(--font-secondary);
+    color: var(--primary-color);
+
+    padding-top: 50px;
+    padding-left: 100px;
+    align-self: flex-start;
 }
