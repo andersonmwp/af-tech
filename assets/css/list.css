@@ -40,3 +40,23 @@ table tbody tr {
 table tbody tr:hover {
     opacity: 1;
 }
+
+.fa-arrow-alt-circle-up {
+    color: var(--green-color);
+}
+
+.fa-arrow-alt-circle-down {
+    color: var(--red-color);
+}
+
+.fa-edit {
+    color: var(--secondary-color);
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.fa-trash-alt {
+    color: var(--red-color);
+    padding: 0 5px;
+    cursor: pointer;
+}

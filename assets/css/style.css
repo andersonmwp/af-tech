@@ -53,6 +53,10 @@ body {
     margin-right: 60px;
 }
 
+.icon {
+    padding-right: 5px;
+}
+
 .navbar-link {
     padding: 0 20px;
 
@@ -78,6 +82,7 @@ body {
     color: var(--white-color);
     font-size: 1.125rem;
     font-weight: 700;
+    cursor: pointer;
 
     transition: background .3s linear;
 }
