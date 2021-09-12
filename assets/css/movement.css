@@ -1,3 +1,8 @@
+.movement-table {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
 .form-container {
     display: flex;
     align-items: center;
@@ -34,6 +39,8 @@
     font-weight: 500;
     
     padding-left: 10px;
+
+    cursor: pointer;
 }
 
 .form-input {
@@ -61,9 +68,52 @@
     width: 200px;
 }
 
-.input-check {
+.input-radio-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
 
-    padding: 2rem;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.input-radio-box {
+    display: flex;
+    align-items: center;
+}
+
+.input-radio{
+    cursor: pointer;
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-radio::before {
+    content: '';
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    background: var(--primary-color);
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+.input-radio:checked:before {
+    opacity: 1;
+}
+
+.input-radio:focus {
+    box-shadow: 0 0 5px var(--primary-color);
 }
