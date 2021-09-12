@@ -64,6 +64,7 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     font-family: var(--font-secondary);
+    transition: all .6s ease-in-out;
 }
 
 .navbar-link:hover {

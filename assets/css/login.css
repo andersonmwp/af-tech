@@ -65,6 +65,13 @@ body {
     background-color: var(--offwhite-color);
 }
 
+.fa-eye {
+    position: relative;
+    right: 40px;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
 .form-input-label {
     color: var(--black-color);
     font-size: 1.125rem;

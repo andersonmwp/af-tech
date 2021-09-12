@@ -25,11 +25,14 @@
             <form class="container" method="" action="">
                 <div class="form-input-container">
                     <label class="form-input-label" for="email"><i class="fas fa-at icon"></i>E-mail</label>
-                    <input class="form-input" type="email" name="email" placeholder="email@seudominio.com">
+                    <input class="form-input" type="email" name="email" placeholder="email@seudominio.com" required>
                 </div>
                 <div class="form-input-container">
                     <label class="form-input-label" for="password"><i class="fas fa-lock icon"></i>Senha</label>
-                    <input class="form-input" type="password" name="password" placeholder="**********">
+                    <div>
+                        <input class="form-input" id="senha" type="password" name="password" placeholder="**********" required>
+                        <i class="fas fa-eye" id="verSenha"></i>
+                    </div>
                 </div>
 
                 <div class="start-container">
@@ -43,5 +46,7 @@
             </form>
         </section>
     </main>
+
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
