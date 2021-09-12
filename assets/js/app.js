@@ -115,7 +115,7 @@ function cadastrar(){
         msgError.innerHTML = ''
 
         setTimeout(()=> {
-            window.location.href = 'index.html'
+            window.location.href = 'https://af-tech.vercel.app/'
         }, 3000)
 
     } else {
@@ -157,7 +157,7 @@ function entrar(){
     })
 
     if(email.value == userValid.email && senha.value == userValid.senha) {
-        window.location.href = 'list.html'
+        window.location.href = 'https://af-tech.vercel.app/list.html'
 
         let token = Math.random().toString(16).substr(2)
         localStorage.setItem('token', token)
@@ -185,11 +185,11 @@ logado.innerHTML = `Olá, ${userLogado.nome}`
 
 if(localStorage.getItem('token') == null){
     alert('Você precisa estar logado para acessar essa página!')
-    window.location.href = 'index.html'
+    window.location.href = 'https://af-tech.vercel.app/'
 }
 
 function sair() {
     localStorage.removeItem('token')
     localStorage.removeItem('userLogado')
-    window.location.href = 'index.html'
+    window.location.href = 'https://af-tech.vercel.app/'
 }
