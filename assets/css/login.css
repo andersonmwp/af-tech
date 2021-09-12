@@ -100,10 +100,24 @@ body {
 
 .btn-container {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 /*---------- Registration Page ----------*/
 .registration-container {
     height: 550px;
+}
+
+#msgError {
+    text-align: center;
+    color: #F57C7C;
+    padding-top: 20px;
+    display: none;
+}
+
+#msgSuccess {
+    text-align: center;
+    color: #4FDF55;
+    padding-top: 20px;
+    display: none;
 }
