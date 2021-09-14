@@ -10,7 +10,7 @@ Na plataforma poderemos cadastrar usuários, cadastrar produtos, e registrar as 
 
 ### Tecnologias
 
-&#46; <strong>FIGMA:</strong> para o desenvolvimento do wireframe e layout
+&#46; <strong>Figma:</strong> para o desenvolvimento do wireframe e layout
 <br>
 &#46; <strong>HTML e CSS:</strong> para  o desenvolvimento do Front-End
 <br>
@@ -46,7 +46,7 @@ Página que será exibia após o login do usuário, contendo uma saudação ao u
 Nessa página será possível registrar uma movimentação dos produtos, de entrada e saída. Que será exibia na tabela abaixo, informando qual o status da movimentação e também podendo editar ou deletar a movimentação.
 
 ### Desenvolvimento
-Para o layout foi utilizado o software <a href="https://www.figma.com/file/o0NQsHuA2EKTzNKfifqrY5/AF-Tech---teste-de-entrevista?node-id=0%3A1">FIGMA</a>, onde foi desenhado o wireframe e desenvolvido a prototipação projeto.
+Para o layout foi utilizado o software <a href="https://www.figma.com/file/o0NQsHuA2EKTzNKfifqrY5/AF-Tech---teste-de-entrevista?node-id=0%3A1">Figma</a>, onde foi desenhado o wireframe e desenvolvido a prototipação projeto.
 <br>
 <br>
 Para o Front-End foi utilizado HTML e CSS basicamente.
