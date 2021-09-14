@@ -33,7 +33,7 @@ Os usuários poderão efetuar seus cadastros, os dados serão enviados para o Lo
 <br>
 <strong>Cadastro de Produtos:</strong> <a>https://af-tech.vercel.app/product.html</a>
 <br>
-Poderá ser feita o cadastro dos produtos que serão enviado ao banco de dados e retornando os dados em uma tabela de listagem.
+Poderá ser feita o cadastro dos produtos que serão enviados ao banco de dados e retornando os dados em uma tabela de listagem.
 <br>
 <br>
 <strong>Listagem de Produtos:</strong> <a>https://af-tech.vercel.app/list.html</a>
@@ -57,12 +57,12 @@ Para o Back-End foi pensado a utilzação do Javascript interligando o banco de 
 Portanto, a solução foi recorrer ao StorageLocal do browser.
 <br>
 <br>
-O deploy foi utilizado os serviços da Vercel.
+O deploy foi utilizando os serviços da Vercel.
 <br>
 <br>
 <strong>Observação:</strong> nas páginas de cadastro de produtos, listagem e movimentação, só está pronto o Front-End.
 <br> 
-As páginas de login e cadastro foi utilizado o LocalStorage para armazenagem dos dados.
+Nas páginas de login e cadastro foi utilizado o LocalStorage para armazenagem dos dados.
 <br>
 Na autenticação do usuário, ao efetuar o login é gerado um token para utilização do sistema. Após efetuar o logout o token é removido.
 
@@ -87,13 +87,22 @@ No desenvolvimento da autenticação de login, foram encontrados alguns bugs:
 ### Imagens do projeto
 
 #### Página de login
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/login.png" />
 
-#### Página de cadastro de usuários
+#### Página de Cadastro de Usuários
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/cadastro-usuario.png" />
+<br>
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/cadastro-autenticacao.png" />
+<br>
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/cadastro-autenticacao2.png" />
 
-#### Página de listagens
+#### Página de Listagens
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/listagem.png" />
 
-#### Página de cadastro dos produtos
+#### Página de Cadastro de Produtos
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/cadastro-produtos.png" />
 
-#### Página de movimentação de estoque
+#### Página de Movimentação
+<img src="https://github.com/andersonmwp/af-tech/blob/master/img-readme/movimenta%C3%A7%C3%A3o.png" />
 
-
+### Desenvolvido por <a href="https://www.linkedin.com/in/andersonmwp/">Anderson Moura</a>
