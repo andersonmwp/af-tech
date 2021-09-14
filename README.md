@@ -10,11 +10,11 @@ Na plataforma poderemos cadastrar usuários, cadastrar produtos, e registrar as 
 
 ### Tecnologias
 
-&#46; <strong>Figma:</strong> para o desenvolvimento do wireframe e layout
+&#67871; <strong>Figma:</strong> para o desenvolvimento do wireframe e layout
 <br>
-&#46; <strong>HTML e CSS:</strong> para  o desenvolvimento do Front-End
+&#67871; <strong>HTML e CSS:</strong> para  o desenvolvimento do Front-End
 <br>
-&#46; <strong>Javascript:</strong> para o desenvolvimento do Back-End
+&#67871; <strong>Javascript:</strong> para o desenvolvimento do Back-End
 
 ### O sistema
 
@@ -69,20 +69,20 @@ Na autenticação do usuário, ao efetuar o login é gerado um token para utiliz
 ### BUG's
 No desenvolvimento da autenticação de login, foram encontrados alguns bugs:
 <br>
-&#46; Quando o usuário vai efetuar o login, clicando no botão de "Entrar" ele ao invés de ser redirecionado, continua na mesma tela.
+&#67871; Quando o usuário vai efetuar o login, clicando no botão de "Entrar" ele ao invés de ser redirecionado, continua na mesma tela.
 <br>
-&#46; Ao efetuar o logout, não está removendo a permissão de login, e com isso conseguindo logar no sistema mesmo não tendo efetuado o login.
+&#67871; Ao efetuar o logout, não está removendo a permissão de login, e com isso conseguindo logar no sistema mesmo não tendo efetuado o login.
 <br>
-&#46; Quando o usuário termina seu cadastro, era para ser redirecionado para a tela de login, porém o mesmo não está acontencendo.
+&#67871; Quando o usuário termina seu cadastro, era para ser redirecionado para a tela de login, porém o mesmo não está acontencendo.
 
 ### Próximos passos
-&#46; Criação do banco de dados relacional.
+&#67871; Criação do banco de dados relacional.
 <br>
-&#46; Requisição ao banco de dados, salvando as informações geradas e as retornando ao Front.
+&#67871; Requisição ao banco de dados, salvando as informações geradas e as retornando ao Front.
 <br>
-&#46; Correção dos bugs e melhoria da autenticação
+&#67871; Correção dos bugs e melhoria da autenticação
 <br>
-&#46; Implementação de mais opções de gestão, geração de relatórios e gráficos.
+&#67871; Implementação de mais opções de gestão, geração de relatórios e gráficos.
 
 ### Imagens do projeto
 
