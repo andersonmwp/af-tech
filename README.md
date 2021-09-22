@@ -1,6 +1,6 @@
 # AF Tech
 
-#### Teste realizado para a entrevista da vaga "Desenvolvedor júnior" na empresa Keener.io
+#### Projeto realizado para a disciplina "Projeto Integrador" da faculdade
 
 A AF Tech é uma empresa de gestão de produtos, onde você pode cadastrar seus produtos e controlar a movimentação do seu estoque.
 <br>
